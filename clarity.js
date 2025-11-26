@@ -6,7 +6,7 @@ var url = $request.url;
 var obj = JSON.parse(body);
 
 const userinfo = '/userInfo';
-const updateinfo = '/update';
+const updateinfo = '/user/update';
 const setfree = '/special/queryByCatalogAll';
 
 if (url.indexOf(setfree) != -1) {
