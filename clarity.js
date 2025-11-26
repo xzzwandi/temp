@@ -18,13 +18,13 @@ if (url.indexOf(setfree) != -1) {
 }
 if (url.indexOf(userinfo) != -1) {
    obj.data.level = 8;
-   obj.data.nickname = "hh"
+   obj.data.nickName = "hh"
    obj.data.expireTime = 4070965662;
    body = JSON.stringify(obj);
 }
 if (url.indexOf(updateinfo) != -1) {
    obj.data.level = 8;
-   obj.data.nickname = "hh"
+   obj.data.nickName = "hh"
    obj.data.expireTime = 4070965662;
    body = JSON.stringify(obj);
 }
